@@ -1,0 +1,19 @@
+name: VanishPlugin
+version: '${project.version}'
+main: ximronno.vanishplugin.VanishPlugin
+api-version: '1.19'
+authors: [Ximronno]
+description: Simple Vanish Plugin
+website: https://github.com/Ximronno
+commands:
+  vanish:
+    description: Use to vanish yourself from others
+    usage: /<command> <player>
+    permission: simpleVanishPlugin.use
+permissions:
+  simpleVanishPlugin.use:
+    default: op
+    description: Allows to use vanish to yourself
+  simpleVanishPlugin.others:
+    default: op
+    description: Allows to use vanish to somebody else

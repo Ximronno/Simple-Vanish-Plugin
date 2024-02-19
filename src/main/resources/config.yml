@@ -1,0 +1,10 @@
+vanish-activated: "&bVanish is &aActive"
+vanish-deactivated: "&bVanish is &cDeactivated"
+
+display-target-name: true
+give-to-message: "&bYou successfully give vanish to"
+
+player-not-found-error: "You are not a player!"
+sender-not-player-error: "&cPlayer not Found!"
+
+permission-message: "&bYou do not have &cpermission &bto use this!"
