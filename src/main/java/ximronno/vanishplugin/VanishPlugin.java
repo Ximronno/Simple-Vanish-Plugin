@@ -15,6 +15,9 @@ public final class VanishPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
 
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+
         getCommand("vanish").setExecutor(new VanishCommand(this));
 
         getServer().getPluginManager().registerEvents(new EventListener(this), this);

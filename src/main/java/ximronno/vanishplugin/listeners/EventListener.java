@@ -17,7 +17,6 @@ public class EventListener implements Listener {
     @EventHandler
     public void OnPlayerJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        System.out.println("PLAYER JOINED");
         for(int i = 0; i < plugin.invisible_players.size(); i++) {
             player.hidePlayer(plugin, plugin.invisible_players.get(i));
         }
